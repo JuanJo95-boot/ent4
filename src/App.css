@@ -1,0 +1,26 @@
+.header{
+    background-color: rgba(22, 250, 64, 0.599);
+    margin-bottom: 1em;
+}
+.user-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
+    justify-items: center;
+    gap: 2em;
+    background-color: rgb(242, 255, 248);
+}
+h1{
+    margin-left: 45%;
+    padding-bottom: 2em;
+}
+.create_new_user{
+    background-color: rgba(11, 232, 147, 0.801);
+    padding: 1em;
+    color: black;
+    border-radius: 10%;
+    margin-left: 47%;
+    margin-bottom: 5%;
+    &:hover {
+        filter: brightness(1.2);
+    }
+}
